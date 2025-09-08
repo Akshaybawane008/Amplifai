@@ -7,9 +7,9 @@ export default function Sidebar() {
 
   return (
     <div className="w-16 h-screen bg-gray-900 text-white flex flex-col items-center justify-between py-6">
-      {/* Top Section */}
+
       <div className="flex flex-col items-center space-y-6">
-        {/* ✅ Removed outer <Link> around logo */}
+   
         <NavLink to="/dashboard">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywKtfz_WFT5YNRetTSJc0D5ogtIS2y1Iro1ZmEUhLpM1KTVSA"
@@ -55,7 +55,7 @@ export default function Sidebar() {
         </NavLink>
       </div>
 
-      {/* Bottom Section */}
+ 
       <div className="flex flex-col items-center">
         <NavLink
           to="/profile"

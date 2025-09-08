@@ -1,15 +1,15 @@
 const AuthComponent = () => {
   return (
     <div className="w-full min-h-screen bg-[#0b2c4a] text-white flex items-center justify-center relative">
-      {/* Decorative shapes */}
+
       <div className="absolute top-6 left-6 w-8 h-8 border border-blue-400 rounded-full opacity-60"></div>
       <div className="absolute top-8 right-8 w-6 h-6 border-t-2 border-r-2 border-blue-400 opacity-70 rotate-45"></div>
       <div className="absolute bottom-6 left-8 w-12 h-12 border border-blue-400 opacity-60 rotate-45"></div>
       <div className="absolute bottom-8 right-6 w-10 h-10 border-2 border-blue-400 opacity-70"></div>
 
-      {/* Content */}
+
       <div className="max-w-lg text-center">
-        {/* Left icon */}
+    
         <div className="flex justify-center mb-4">
           <div className="w-8 h-8 border-2 border-blue-400 rounded-md rotate-45"></div>
         </div>

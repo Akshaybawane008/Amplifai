@@ -3,7 +3,7 @@ import { isAuthenticated } from "../../utils/auth"
 
 export default function ProtectedRoute({ children }) {
   if (!isAuthenticated()) {
-    return <Navigate to="/" replace /> // redirect to login
+    return <Navigate to="/" replace /> 
   }
   return children
 }

@@ -28,7 +28,7 @@ export default function DashboardPage() {
           />
         </div>
         <div className="grid grid-cols-12 gap-4">
-          {/* First row */}
+       
           <div className="col-span-12 lg:col-span-8">
             <Chart type="line" title="Revenue & Profit Trend" />
           </div>
@@ -36,7 +36,7 @@ export default function DashboardPage() {
             <Chart type="bar" title="Margin Trends (Last 6 Months)" />
           </div>
 
-          {/* Second row */}
+      
           <div className="col-span-12 lg:col-span-8">
             <Table />
           </div>

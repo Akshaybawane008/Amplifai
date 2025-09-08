@@ -14,11 +14,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Public */}
+      
         <Route path="/" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
 
-        {/* Private Layout */}
+      
         <Route
           element={
             <ProtectedRoute>

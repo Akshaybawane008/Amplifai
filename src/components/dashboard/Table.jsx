@@ -1,4 +1,4 @@
-// src/components/Table.jsx
+
 import React from 'react'
 
 const defaultCompanies = [
@@ -14,7 +14,7 @@ export default function Table({ companies = defaultCompanies }) {
     <div className="bg-white shadow rounded-lg p-4 overflow-x-auto">
       <h4 className="text-sm font-medium mb-3">Entity-wise Performance</h4>
 
-      {/* ensure table can scroll on small screens */}
+  
       <div className="min-w-[700px]">
         <table className="w-full text-sm">
           <thead>

@@ -1,4 +1,4 @@
-// src/components/CompanyTable/Pagination.jsx
+
 import React from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 

@@ -11,9 +11,9 @@ export default function LoginForm() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    // Fake auth check
-    if (email === "test@test.com" && password === "123456") {
-      login("dummyToken123") // save token
+
+    if (email === "test@test.com" && password === "1234") {
+      login("dummyToken123") 
       navigate("/dashboard")
     } else {
       setError("Invalid credentials")

@@ -7,7 +7,7 @@ export default function AuthCard({ initialMode = "login" }) {
 
   return (
     <div className="w-full max-w-md auth-card bg-white rounded-xl shadow-lg p-6">
-      {/* Image Section */}
+   
       <div className="flex items-center justify-start gap-3 mb-6 ">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywKtfz_WFT5YNRetTSJc0D5ogtIS2y1Iro1ZmEUhLpM1KTVSA"
@@ -19,7 +19,7 @@ export default function AuthCard({ initialMode = "login" }) {
         </h1>
       </div>
 
-      {/* Heading */}
+   
       <h2 className="text-2xl font-semibold mb-1 text-start">
         {mode === "login" ? "Login" : "Create account"}
       </h2>
@@ -29,10 +29,10 @@ export default function AuthCard({ initialMode = "login" }) {
           : "Enter details to create a new account."}
       </p>
 
-      {/* Forms */}
+
       {mode === "login" ? <LoginForm /> : <SignupForm />}
 
-      {/* Toggle */}
+     
       <p className="mt-4 text-sm text-center">
         {mode === "login" ? (
           <>

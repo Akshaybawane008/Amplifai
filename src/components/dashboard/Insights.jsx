@@ -27,7 +27,7 @@ export default function Insights() {
       <ul className="space-y-4">
         {insights.map((item, idx) => (
           <li key={idx} className="flex items-start gap-2">
-            {/* Custom diamond bullet */}
+        
             <span className="text-orange-500 mt-1">◆</span>
             <div>
               <p className="font-semibold text-sm text-gray-800">
